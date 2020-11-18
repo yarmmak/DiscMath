@@ -1,1 +1,1 @@
-# DiskMath
+# DiscMath
