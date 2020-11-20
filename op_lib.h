@@ -6,7 +6,7 @@
 
 #ifndef D___OP_LIB_H
 #define D___OP_LIB_H
-#include "op_lib.h"
+#include "op_lib.c"
 
 //NOT OPERATOR
 //Function return 1 if a = 0 and 0 if a = 1
