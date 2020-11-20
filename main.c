@@ -1,10 +1,10 @@
 #include <stdio.h>
-//#include "op_lib.h"
+#include "op_lib.h"
 
 int main()
 {
 
-    printf("Test");
+    printf("%d", IMPL(1, 1));
 
     return 0;
 }
