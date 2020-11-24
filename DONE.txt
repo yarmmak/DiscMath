@@ -1,0 +1,5 @@
+#Pattern                                                                                     |
+#1 Day ---> 00.00.2020 / Time ---> 00.00 / name / New Pull-Request ---> Name Of Pull-Request |
+----------------------------------------------------------------------------------------------
+
+#1. Day ---> 24.11.2020 / Time ---> 20.13 / yarmmak / New Pull-Request ---> New File DONE.txt 
