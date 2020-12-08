@@ -55,3 +55,4 @@ int XOR(int a, int b)
     else
         return ERR;
 }
+
