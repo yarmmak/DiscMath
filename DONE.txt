@@ -5,3 +5,4 @@
 #1. Day ---> 24.11.2020 / Time ---> 20.13 / yarmmak / New Pull-Request ---> New File DONE.txt 
 #2. Day ---> 24.11.2020 / Time ---> 20:18 / nartherion / New Pull-Request ---> Test
 #3. Day ---> 08.12.2020 / Time ---> 17:14 / nartherion / New Pull-Request ---> Dijcstra
+#4. Day ---> 08.12.2020 / Time ---> 17:50 / yarmmak / New Pull-Request ---> The framework of the matrix of incidence and contiguity
