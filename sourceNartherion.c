@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <ctype.h>
 #define INF 9999
-#define N 7
+#define N 5
 
 void dijkstra(int graph[N][N], int size, int start) {
-    int weight_matrix[N][N], distance[N] = {0}, previous[N] = {0};
+    int weight_matrix[N][N], distance[] = {0}, previous[N] = {0};
     int visited[N] = {0}, count, min_distance, next_vertex, i, j;
 
     for (i = 0; i < size; ++i) //Будуємо матрицю ваг
