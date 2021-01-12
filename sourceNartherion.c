@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #define INF 9999
 #define N 7
 
@@ -58,4 +59,57 @@ void dijkstra(int graph[N][N], int size, int start) {
             }
         }
     }
+}
+
+int priority (char var) {
+    if (var == '(')
+        return 0;
+    if (var == '+' || var == '-')
+        return 1;
+    if (var == '*' || var == '/')
+        return 2;
+    return 0;
+}
+
+char* to_postfix (char postfix_string[]) {
+    int stack[20], top = -1;
+
+    char element, string[25];
+    int i = 0, j = 0;
+
+    for ( ; i < 25; ++i) {
+        string[i] = postfix_string[i];
+        postfix_string[i] = '\0';
+    }
+
+    i = 0;
+
+    while (string[j] != '\0') {
+        if ( isalnum(string[j]) ) 
+            postfix_string[i] = string[j];
+        else if (string[j] == '(') 
+            stack[++top] = string[j];
+        else if (string[j] == ')') {
+            for ( ; ( element = stack[top--] ) != '('; ++i) 
+                postfix_string[i] = element;
+            i--;
+        } else {
+            for ( ; priority(stack[top]) >= priority(string[j]); i++) 
+                postfix_string[i] = stack[top--];
+            --i;
+            stack[++top] = string[j];
+        }
+
+        if (string[j] == '(')
+            j++;
+        else {
+            j++;
+            i++;
+        }
+    }
+
+    for ( ; top != -1; ++i)
+        postfix_string[i] = stack[top--];
+
+    return postfix_string;
 }
