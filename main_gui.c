@@ -2,8 +2,8 @@
 //#include <sourceNartherion.h>
 //#include <sourceSmartFoxy.h>
 
-int main()
-{
+//int main()
+//{
     int i = 0, decision = 1;
     
     while (decision != 0) {
@@ -53,4 +53,4 @@ int main()
     
     printf("\n");
     return 0;
-}
+//}
