@@ -7,3 +7,5 @@
 #3. Day ---> 08.12.2020 / Time ---> 17:14 / nartherion / New Pull-Request ---> Dijcstra
 #4. Day ---> 08.12.2020 / Time ---> 17:50 / yarmmak / New Pull-Request ---> The framework of the matrix of incidence and contiguity
 #5. Day ---> 10.01.2021 / Time ---> 1:25 / yarmmak / New Pull-Request ---> Function that counts the expression written in postfix notation
+#6. Day ---> 12.01.2021 / Time ---> 13:07 / yarmmak / New Pull-Request ---> Added Cartesian Product Function
+ 
