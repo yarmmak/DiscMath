@@ -1,7 +1,8 @@
+#include "sourceNatherion.h"
 #include <stdio.h>
-#include <ctype.h>
-#define INF 9999
-#define N 7
+//#include <ctype.h>
+//#define INF 9999
+//#define N 7
 
 void dijkstra(int graph[N][N], int size, int start) {
     int weight_matrix[N][N], distance[N] = {0}, previous[N] = {0};
@@ -71,7 +72,7 @@ int priority (char var) {
     return 0;
 }
 
-char* to_postfix (char postfix_string[]) {
+char*  (char postfix_string[]) {
     int stack[20], top = -1;
 
     char element, string[25];
@@ -111,5 +112,5 @@ char* to_postfix (char postfix_string[]) {
     for ( ; top != -1; ++i)
         postfix_string[i] = stack[top--];
 
-    return postfix_string;
+    return printf("%s", postfix_string);
 }
