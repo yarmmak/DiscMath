@@ -1,9 +1,11 @@
-
+#include "sourceSmartFoxy.h"
+#include <stdio.h>
+#include <math.h>
 
 // Calculate postfix notation
 int postfixNotation(char *ptr)
 {
-    int stack[100] = 0, top = 0;
+    int stack[100] = {0}, top = 0;
     int commonNumber = 0, number1, number2, result;
     while (*ptr != '\0')
     {
