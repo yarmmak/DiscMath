@@ -45,6 +45,8 @@ int IMPL(int a, int b)
         return ERR;
 }
 
+
+
 //XOR operator
 int XOR(int a, int b)
 {
