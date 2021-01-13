@@ -43,7 +43,7 @@ void computerRepresentation()
         printf("%.0f", setU[i]);
         if (i<sizeU-1)
         {
-            printf(", ", setU[i]);
+            printf("%f, ", setU[i]);
         }
     }
     printf("}");
